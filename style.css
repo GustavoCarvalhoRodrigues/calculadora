@@ -1,0 +1,61 @@
+@charset "UTF-8";
+div#container{
+    background-color: yellow;
+    display: flow-root;
+    width: 251px;
+    border-radius: 6px;
+}
+div.principal{
+    display: block;
+    border: 2px solid lightblue;
+    background-color: black;
+    text-align: end;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 214px;
+    height: 100px;
+}
+div.principal > p{
+    color: white;
+    padding-top: 54px;
+    padding-right: 40px;
+    font-size: 25px;
+   
+}
+div.numeros{
+    display: inline-block;
+    border: 2px solid lightblue;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 10px;  
+    width: 40px;
+    height: 40px;
+}
+div.maiores{
+    display: inline-block;
+    border: 2px solid lightblue;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+div.sinais{
+    display: inline-block;
+    border: 2px solid lightblue;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
