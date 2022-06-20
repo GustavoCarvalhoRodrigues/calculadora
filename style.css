@@ -2,7 +2,7 @@
 div#container{
     background-color: yellow;
     display: flow-root;
-    width: 251px;
+    width: 296px;
     border-radius: 6px;
 }
 div.principal{
@@ -14,7 +14,7 @@ div.principal{
     margin-left: 10px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 214px;
+    width: 272px;
     height: 100px;
 }
 div.principal > p{
@@ -24,7 +24,7 @@ div.principal > p{
     font-size: 25px;
    
 }
-div.numeros{
+div.numeros-menores{
     display: inline-block;
     border: 2px solid lightblue;
     background-color: black;
@@ -36,7 +36,11 @@ div.numeros{
     width: 40px;
     height: 40px;
 }
-div.maiores{
+div.numeros-menores:hover{
+    background-color: darkred;
+    transition-duration: 0.5s;
+}
+div.numeros-maiores{
     display: inline-block;
     border: 2px solid lightblue;
     background-color: black;
@@ -46,6 +50,10 @@ div.maiores{
     margin-left: 10px;
     width: 40px;
     height: 40px;
+}
+div.numeros-maiores:hover{
+    background-color: darkred;
+    transition-duration: 0.5s;
 }
 div.sinais{
     display: inline-block;
@@ -58,4 +66,8 @@ div.sinais{
     margin-left: 10px;
     width: 40px;
     height: 40px;
+}
+div.sinais:hover{
+    background-color: darkred;
+    transition-duration: 0.5s;
 }
